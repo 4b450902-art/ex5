@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>問卷表單</title>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<br>
+
+<div style="margin: 0 auto; width: 600px;">
+  <form>
+    <fieldset>
+      <legend><b>科技與AI使用習慣調查</b></legend>
+      <br>
+
+      1. 是非題：你有使用過AI工具嗎？<br>
+      <small>說明：有使用過請打勾</small><br>
+      <input type="checkbox" value="yes"> 是的
+      <p>
+
+      2. 單選題：你最常使用的上網設備是？<br>
+      <small>說明：只能選擇一個</small><br>
+      <input type="radio" name="q2" value="phone"> 手機
+      <input type="radio" name="q2" value="pc"> 電腦
+      <input type="radio" name="q2" value="tablet"> 平板
+      <p>
+
+      3. 單選題：你每天上網的時間大約多久？<br>
+      <small>說明：請從下拉選單中挑選一項</small><br>
+      <select>
+        <option value="1hr">1小時以內</option>
+        <option value="3hr">1~3小時</option>
+        <option value="5hr">3~5小時</option>
+        <option value="more">5小時以上</option>
+      </select>
+      <p>
+
+      4. 複選題：你通常用網路做什麼？<br>
+      <small>說明：可以多選</small><br>
+      <input type="checkbox" value="game"> 玩遊戲
+      <input type="checkbox" value="music"> 聽音樂
+      <input type="checkbox" value="read"> 看小說
+      <input type="checkbox" value="video"> 看影片
+      <p>
+
+      5. 複選題：你最常用的社交平台？<br>
+      <small>說明：按住 Ctrl 鍵可多選</small><br>
+      <select multiple size="4">
+        <option value="ig">Instagram</option>
+        <option value="fb">Facebook</option>
+        <option value="line">LINE</option>
+        <option value="threads">Threads</option>
+      </select>
+      <p>
+
+      6. 填充題：你都使用什麼品牌的3C產品？<br>
+      <small>說明：請填品牌名稱</small><br>
+      <input type="text">
+      <p>
+
+      7. 填充題：你的年齡？<br>
+      <small>說明：請輸入數字</small><br>
+      <input type="number">
+      <p>
+
+      8. 填充題：填寫日期？<br>
+      <small>說明：請點選日曆選擇日期</small><br>
+      <input type="date">
+      <p>
+
+      9. 問答題：你覺得AI對你的生活有什麼影響？<br>
+      <small>說明：請簡述</small><br>
+      <textarea rows="3" cols="40"></textarea>
+      <p>
+
+      <button type="submit" class="w3-button w3-light-grey w3-hover-blue">送出</button>
+      <button type="reset" class="w3-button w3-light-grey w3-hover-green">重設</button>
+
+    </fieldset>
+  </form>
+</div>
+
+</body>
+</html>
